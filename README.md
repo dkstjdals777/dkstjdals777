@@ -2,15 +2,33 @@
 
 A new Flutter project.
 
-## Getting Started
+## 개요
+피트릭스 APP포지션 과제.
+메인 UI와 기록하기, 기록보기, 로그인 탭으로 구성되어 있다.
 
-This project is a starting point for a Flutter application.
+## 문제해결을 위한 아이디어 요약
+- 프로세스 / 작업 리스트 항목
+  - 각 페이지 생성
+  - 네이게이션 구현
+  - Bloc 구현
+  - 통신 구현
+  - QA / 디버깅
+- API 설계
+  - 전체 운동 종류를 받아올 수 있는 API
+    - 운동명, 운동 Image를 받아온다.
+   - 운동 이력을 받아올 수 있는 API
+     - 운동명, 메시지가 포함된 리스트를 받아 온다
+   - 운동 이력을 기록할 수 있는 API
+     - 운동명, 메시지를 기록할 수 있다.
 
-A few resources to get you started if this is your first Flutter project:
+## 개발 환경
+- FE : Flutter 3.10.5
+- BE : Mock api
+  
+## 프로젝트 빌드 & 테스트 & 실행 방법
+- 빌드 : flutter build apk
+- 실행 : 테스트 디바이스 연결 상태에서 flutter run
+- 테스트 : ROOT/test 아래 bloc 관련 기능 테스트 가능.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 미해결 이슈 정리
+- UI 개선
