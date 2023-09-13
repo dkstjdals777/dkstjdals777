@@ -1,0 +1,6 @@
+{
+    "dart.flutterSdkPath": "D:\\flutter_windows_3.3.5-stable\\flutter",
+    "search.exclude": {
+        "**/.fvm": true
+      },
+}
